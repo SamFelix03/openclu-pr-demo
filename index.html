@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Site</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body { background: #fff; }
+    .header { color: blue !important; }
+  </style>
+</head>
+<body onclick="console.log('clicked body')">
+
+  <div class="header" style="background: red; padding: 20px; font-size: 24px;">
+    <div>Welcome to SuperCorp</div>
+    <div onclick="alert('Menu clicked')">Home | About | Contact</div>
+  </div>
+
+  <div style="width: 1200px; margin: 0 auto;">
+    
+    <h1>SuperCorp - Best Products Ever</h1>
+    <h1>We Are Number One</h1>
+
+    <table width="100%" border="0">
+      <tr>
+        <td width="70%" valign="top">
+          <div class="content">
+            <p><b><font color="#333333" size="4">About Us</font></b></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. We build amazing things for everyone.</p>
+            
+            <img src="hero.jpg" width="600" height="300">
+
+            <br><br>
+
+            <div class="form-section">
+              <p>Sign up for our newsletter:</p>
+              <input type="text" placeholder="Email">
+              <button onclick="submitForm()">Submit</button>
+            </div>
+          </div>
+        </td>
+        <td width="30%" valign="top">
+          <div class="sidebar" style="background: #eee; padding: 10px;">
+            <h3>Latest News</h3>
+            <marquee>Breaking: SuperCorp launches new product!!!</marquee>
+            <ul>
+              <li><a href="javascript:void(0)">Read more</a></li>
+              <li><a href="#">Item 2</a></li>
+            </ul>
+          </div>
+        </td>
+      </tr>
+    </table>
+
+    <div class="products">
+      <div class="box1">Product 1 - $99</div>
+      <div class="box2">Product 2 - $149</div>
+      <div class="box3">Product 3 - $199</div>
+    </div>
+
+    <center>
+      <p><font size="2" color="gray">Copyright 2020 SuperCorp. All rights reserved.</font></p>
+    </center>
+
+  </div>
+
+  <script>
+    function submitForm() {
+      alert('Thanks!');
+    }
+  </script>
+
+</body>
+</html>

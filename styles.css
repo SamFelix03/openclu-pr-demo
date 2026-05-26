@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: content-box;
+  }
+  
+  #header {
+    background: navy;
+    color: white;
+  }
+  
+  .header {
+    background: green !important;
+    color: white;
+  }
+  
+  h1 {
+    font-size: 32px;
+    color: #000;
+  }
+  
+  h1 {
+    margin-bottom: 5px;
+  }
+  
+  .content p {
+    color: #ccc;
+    background: #ddd;
+  }
+  
+  .box1, .box2, .box3 {
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+    background: lightblue;
+    border: 1px solid black;
+  }
+  
+  .products {
+    height: 250px;
+    clear: both;
+  }
+  
+  .sidebar h3 {
+    font-size: 18px;
+  }
+  
+  a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: blue;
+  }
+  
+  input {
+    border: 1px solid #999;
+    width: 200px;
+  }
+  
+  button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    cursor: pointer;
+  }
+  
+  /* TODO: fix this later */
+  /* .old-header { display: block; } */
+  
+  .form-section {
+    margin-top: 20px;
+    z-index: 9999;
+    position: relative;
+  }
